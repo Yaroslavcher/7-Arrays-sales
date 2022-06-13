@@ -12,8 +12,8 @@ public class Main {
         double averageSale = service.averageSale(sales);
         System.out.println("2. Средняя сумма продаж: " + averageSale);
 
-        int maxSales = service.maxSales(sales);
-        System.out.println("3. Максимальные продажи в " + maxSales + "-м месяце");
+        int maxSalesMonth = service.maxSalesMonth(sales);
+        System.out.println("3. Максимальные продажи в " + maxSalesMonth + "-м месяце");
 
         int minSales = service.minSales(sales);
         System.out.println("4. Минимальные продажи в " + minSales + "-м месяце");
