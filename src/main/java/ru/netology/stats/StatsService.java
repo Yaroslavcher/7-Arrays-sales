@@ -4,8 +4,8 @@ public class StatsService {
 
     public double sumOfAllSales(double[] sales) { // 1. Сумма всех продаж
         double sum = 0;
-        for (int i = 0; i < sales.length; i++) {
-            sum = sum + sales[i];
+        for (double sale : sales) {
+            sum += sale;
         }
         return sum;
     }
